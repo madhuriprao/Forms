@@ -1,0 +1,35 @@
+.flexbox {
+  display: flex;
+  width: 954px;
+  height: 594px;
+}
+.Container {
+  display: flex;
+  border: 1px solid;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: #be0909;
+  background-color: #be0909;
+  justify-content: center;
+  align-items: center;
+  width: 954px;
+  height: 594px;
+}
+.box {
+  display: flex;
+  border: 1px solid;
+  position: relative;
+  color: #ffb039;
+  background-color: #ffb039;
+  justify-content: center;
+  align-items: center;
+  width: 345px;
+  height: 594px;
+}
+
+.Duckimage {
+  z-index: 1;
+  width: 663px;
+  height: 603px;
+  transform: translateX(-150px);
+}

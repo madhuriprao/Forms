@@ -14,7 +14,45 @@
   <body>
     <div class="flexbox">
       <div class="Container">
-        <form action=""></form>
+        <form class="form" autocomplete="off">
+          <div class="entries">
+            <label for="name" class="label">FULL NAME</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-field"
+              required
+              autofocus
+            />
+            <label for="emailid" class="label">EMAIL</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input-field"
+              placeholder="Your Email"
+            />
+            <label for="messageregarding" class="label"
+              >MESSAGE REGARDING</label
+            >
+            <input
+              type="text"
+              name="messageregarding"
+              id="messageregarding"
+              class="input-field"
+            />
+            <label for="message" class="label">MESSAGE </label>
+            <input
+              type="text"
+              name="message"
+              id="message"
+              class="input-field"
+              placeholder="Your Message"
+            />
+            <button type="submit" class="button">SEND MESSAGE</button>
+          </div>
+        </form>
       </div>
       <div class="box">
         <div class="Duckimage">
